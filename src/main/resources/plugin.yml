@@ -1,0 +1,11 @@
+name: AdminPanel2
+version: 1.0.0
+main: com.kyra.adminpanel2.AdminPanel2
+api-version: '1.21'
+commands:
+  adminpanel2:
+    description: Opens Admin Panel Pages 11-20
+    permission: adminpanel.use
+permissions:
+  adminpanel.use:
+    default: op
